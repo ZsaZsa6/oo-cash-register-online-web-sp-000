@@ -34,6 +34,6 @@ class CashRegister
   end
 
   def void_last_transaction
-    @total -= self.total.select[-1]
+    @total -= self.total
   end
 end
