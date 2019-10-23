@@ -19,7 +19,6 @@ class CashRegister
   end
 
   def apply_discount
-    #  binding.pry
     if self.discount != 0
       @total -= (self.total*(discount.to_f/100)).to_i
 
@@ -28,13 +27,13 @@ class CashRegister
       return "There is no discount to apply."
     end
   end
-
+binding.pry
 
   def items
     @items
   end
 
   def void_last_transaction
-    
+
   end
 end
