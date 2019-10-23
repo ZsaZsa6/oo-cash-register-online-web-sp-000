@@ -27,7 +27,7 @@ class CashRegister
       return "There is no discount to apply."
     end
   end
- binding.pry
+ # binding.pry
 
   def items
     @items
